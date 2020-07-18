@@ -1,5 +1,70 @@
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 60%;
+  position: relative;
+}
+
+.photo1 {
+  background-image: url("../images/foto1.jpg");
+}
+
+.photo2 {
+  background-image: url("../images/foto2.jpg");
+}
+
+.photo3 {
+  background-image: url("../images/foto3.jpg");
+}
+
+.photo1__title,
+.photo1__style,
+.photo1__design {
+  font-size: 4em;
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #000;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.photo1__title {
+  top: 30%;
+}
+
+.photo1__style {
+  top: 42%;
+  color: #ff5f40;
+}
+
+.photo1__design {
+  top: 55%;
+  color: #ff5f40;
+}
+
+section {
+  background: white;
+  color: #000;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px 20px;
 }
