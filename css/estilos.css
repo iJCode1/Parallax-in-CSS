@@ -11,13 +11,15 @@ html {
 
 .photo1,
 .photo2,
-.photo3 {
+.photo3,
+.photo4 {
   min-height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 60%;
   position: relative;
+  background-attachment: fixed;
 }
 
 .photo1 {
@@ -32,10 +34,13 @@ html {
   background-image: url("../images/foto3.jpg");
 }
 
+.photo4 {
+  background-image: url("../images/foto4.jpg");
+}
 .photo1__title,
 .photo1__style,
 .photo1__design {
-  font-size: 4em;
+  font-size: 4.2em;
   color: white;
   position: absolute;
   text-align: center;
@@ -43,8 +48,7 @@ html {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-shadow: 0 0 10px #000;
-  background-attachment: fixed;
-  min-height: 100%;
+  margin-bottom: 10px;
 }
 
 .photo1__title {
@@ -52,19 +56,53 @@ html {
 }
 
 .photo1__style {
-  top: 42%;
+  top: 45%;
   color: #ff5f40;
 }
 
 .photo1__design {
-  top: 55%;
+  top: 60%;
   color: #ff5f40;
 }
 
 section {
   background: white;
   color: #000;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
   padding: 20px 20px;
+}
+
+.section2 {
+  background-color: #1b262c;
+  color: white;
+}
+
+.footer {
+  background-color: #1b262c;
+  color: white;
+}
+
+.footer p {
+  padding: auto 0;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 450px) {
+  .photo1__title,
+  .photo1__style,
+  .photo1__design {
+    font-size: 3em;
+  }
+
+  .section1,
+  .section2,
+  .section3 {
+    font-size: 1em;
+  }
+
+  .section1 h2 {
+    margin-bottom: 10px;
+  }
 }
