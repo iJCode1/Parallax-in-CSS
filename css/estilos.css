@@ -56,12 +56,12 @@ html {
 }
 
 .photo1__style {
-  top: 45%;
+  top: 42%;
   color: #ff5f40;
 }
 
 .photo1__design {
-  top: 60%;
+  top: 54%;
   color: #ff5f40;
 }
 
@@ -104,5 +104,25 @@ section {
 
   .section1 h2 {
     margin-bottom: 10px;
+  }
+  .photo1,
+  .photo2,
+  .photo3,
+  .photo4 {
+    height: 100vh;
+  }
+
+  .photo1__title {
+    top: 30%;
+  }
+
+  .photo1__style {
+    top: 45%;
+    color: #ff5f40;
+  }
+
+  .photo1__design {
+    top: 60%;
+    color: #ff5f40;
   }
 }
